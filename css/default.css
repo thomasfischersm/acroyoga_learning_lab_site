@@ -1,0 +1,125 @@
+@font-face {
+  font-family: bahnschrift;
+  src: url(fonts/bahnschrift.woff);
+}
+body {
+  margin: 0px;
+}
+.page-container {
+  max-width: 607.5px;
+  background-color: #ffebc3;
+  width: 100%;
+  height: 1080px;
+  margin: auto;
+  font-family: "myriad-pro", sans-serif;
+}
+#sticky-header {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  z-index: 11;
+  font-family: 'Ovo';
+}
+#sticky-header-container {
+  max-width: 607.5px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #DAF0FF;
+}
+#site-menu {
+  flex: 1;
+  left: 0;
+  width: 100%;
+  padding-left: .5%;
+  padding-top: 1%;
+}
+#site-menu ul {
+  list-style-type: none;
+  padding-left: 5%;
+}
+#site-menu a {
+  text-decoration: none;
+  color: black;
+}
+input#menu_checkbox {
+  display: none;
+}
+#hamburger {
+  width: 5%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  vertical-align: middle;
+}
+#site-navigation {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  line-height: 1.5;
+  width: fit-content;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#site-navigation ul {
+  padding-top: .5%;
+  padding-bottom: .5%;
+  padding-left: 3%
+}
+input:checked ~ #site-navigation {
+  max-height: 100%;
+}
+#invisible-title {
+  font-family: bahnschrift;
+  font-size: 175%;
+  color: #DAF0FF;
+  margin-top: 0.25%;
+  margin-bottom: 0.75%;
+}
+#header-title {
+  font-family: bahnschrift;
+  margin: auto;
+  font-size: 175%;
+  position: absolute;
+  width: 607.5px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.25%;
+  margin-bottom: 0.25%;
+  margin-bottom: 0.75%;
+}
+#sticky-footer {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  z-index: 11;
+  font-family: "myriad-pro", sans-serif;
+}
+#sticky-footer-container {
+  max-width: 607.5px;
+  flex: 1;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  background-color: #DAF0FF;
+  margin: auto;
+}
+#call-to-action-button {
+  background-color: #406263;
+  color: white;
+  border: none;
+  font-size: 135%;
+  padding: 10% 60%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 11%;
+  cursor: pointer;
+  border-radius: 160px;
+	white-space: nowrap;
+}
