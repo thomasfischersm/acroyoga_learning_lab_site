@@ -104,22 +104,28 @@ input:checked ~ #site-navigation {
   max-width: 607.5px;
   flex: 1;
   width: 100%;
-  display: grid;
+  display: flex;
   place-content: center;
+  justify-content: center;
   background-color: #DAF0FF;
   margin: auto;
+}
+#call-to-action {
+  width: 35%;
+  justify-content: center;
+  display: flex;
 }
 #call-to-action-button {
   background-color: #406263;
   color: white;
   border: none;
-  font-size: 135%;
-  padding: 10% 60%;
+  font-size: 118%;
+  padding: 5% 18%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 11%;
+  margin: 4%;
   cursor: pointer;
   border-radius: 160px;
-	white-space: nowrap;
+  white-space: nowrap;
 }
