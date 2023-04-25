@@ -105,6 +105,7 @@ input:checked ~ #site-navigation {
   flex: 1;
   width: 100%;
   display: flex;
+  position: relative;
   place-content: center;
   justify-content: center;
   background-color: #DAF0FF;
@@ -128,4 +129,26 @@ input:checked ~ #site-navigation {
   cursor: pointer;
   border-radius: 160px;
   white-space: nowrap;
+}
+#insta-link {
+  float: right;
+  position: absolute;
+  right: 1%;
+/*  padding-right: 5%;*/
+  width: 4%;
+  height: 100%;
+/*  background-color: yellow;*/
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+#insta-link > a > img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+/*  background-color: orange;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
