@@ -376,3 +376,41 @@ input:checked ~ #site-navigation {
   height: auto;
   border-radius: 10%;
 }
+.page6 {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#lab-note {
+	padding-top: 50%;
+	font-size: 150%;
+}
+.page7 {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#page7-img {
+  position: relative;
+  margin: 5%;
+  flex: 1;
+}
+#left-about-img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  /*  right: 0;*/
+}
+#right-about-img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  right: 0;
+}
+#notices-container {
+	font-size: 150%;
+}
