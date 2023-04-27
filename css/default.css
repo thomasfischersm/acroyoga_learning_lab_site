@@ -413,4 +413,6 @@ input:checked ~ #site-navigation {
 }
 #notices-container {
 	font-size: 150%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
