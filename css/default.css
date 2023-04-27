@@ -60,11 +60,12 @@ input#menu_checkbox {
   vertical-align: middle;
 }
 #site-navigation {
-  background-color: white;
+  background-color: #C6DAE5;
   max-height: 0;
   overflow: hidden;
   line-height: 1.5;
   width: fit-content;
+  margin-top: 2%;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -164,6 +165,9 @@ input:checked ~ #site-navigation {
   color: gray;
   background-color: black;
 }
+.bookmark-anchor {
+/*  display: none;*/
+}
 .page0 {
   position: relative;
   display: flex;
@@ -176,6 +180,7 @@ input:checked ~ #site-navigation {
   margin: auto;
   display: flex;
   justify-content: center;
+	padding-bottom: 1%;
 }
 .default-body {
   padding-right: 5%;
@@ -218,9 +223,9 @@ input:checked ~ #site-navigation {
   object-fit: fill;
 }
 .page1 {
-	position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 #preparation-grid {
   display: grid;
@@ -274,7 +279,7 @@ input:checked ~ #site-navigation {
 #page1-photo-container {
   position: relative;
   margin: 2%;
-/*	padding-bottom: 70%;*/
+  /*	padding-bottom: 70%;*/
   flex: 1;
   text-align: center;
   display: flex;
@@ -290,21 +295,21 @@ input:checked ~ #site-navigation {
   border-radius: 10%;
 }
 .bottom-whitespace {
-	height: 19%;
+  height: 16%;
 }
 .page2 {
-	position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 #benefits-list > ul > li {
-	font-size: 150%;
-	margin: 5%
+  font-size: 150%;
+  margin: 5%
 }
 #page2-photo-container {
   position: relative;
   margin: 2%;
-/*	padding-bottom: 70%;*/
+  /*	padding-bottom: 70%;*/
   flex: 1;
   text-align: center;
   display: flex;
@@ -320,21 +325,21 @@ input:checked ~ #site-navigation {
   border-radius: 10%;
 }
 .page-text {
-	font-size: 150%;
+  font-size: 150%;
 }
 .page3 {
-	position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 #benefits-list > ul > li {
-	font-size: 150%;
-	margin: 5%
+  font-size: 150%;
+  margin: 5%
 }
 #page3-photo-container {
   position: relative;
   margin: 2%;
-/*	padding-bottom: 70%;*/
+  /*	padding-bottom: 70%;*/
   flex: 1;
   text-align: center;
   display: flex;
@@ -350,14 +355,14 @@ input:checked ~ #site-navigation {
   border-radius: 10%;
 }
 .page4 {
-	position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .page5 {
-	position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 #illustration-container {
   position: relative;
@@ -377,18 +382,18 @@ input:checked ~ #site-navigation {
   border-radius: 10%;
 }
 .page6 {
-	position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 #lab-note {
-	padding-top: 50%;
-	font-size: 150%;
+  padding-top: 50%;
+  font-size: 150%;
 }
 .page7 {
-	position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 #page7-img {
   position: relative;
@@ -412,7 +417,7 @@ input:checked ~ #site-navigation {
   right: 0;
 }
 #notices-container {
-	font-size: 150%;
-	padding-left: 5%;
-	padding-right: 5%;
+  font-size: 150%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
