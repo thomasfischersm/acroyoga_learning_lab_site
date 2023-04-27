@@ -319,7 +319,7 @@ input:checked ~ #site-navigation {
   height: auto;
   border-radius: 10%;
 }
-.page-content {
+.page-text {
 	font-size: 150%;
 }
 .page3 {
@@ -328,7 +328,7 @@ input:checked ~ #site-navigation {
     flex-direction: column;
 }
 #benefits-list > ul > li {
-	font-size: 140%;
+	font-size: 150%;
 	margin: 5%
 }
 #page3-photo-container {
