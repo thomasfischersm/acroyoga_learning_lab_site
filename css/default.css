@@ -166,7 +166,7 @@ input:checked ~ #site-navigation {
   background-color: black;
 }
 .bookmark-anchor {
-/*  display: none;*/
+  /*  display: none;*/
 }
 .page0 {
   position: relative;
@@ -180,7 +180,7 @@ input:checked ~ #site-navigation {
   margin: auto;
   display: flex;
   justify-content: center;
-	padding-bottom: 1%;
+  padding-bottom: 1%;
 }
 .default-body {
   padding-right: 5%;
@@ -207,7 +207,8 @@ input:checked ~ #site-navigation {
   display: flex;
   margin-left: 15%;
   margin-right: 5%;
-  margin-bottom: 17%;
+  /* Without megaphone: margin-bottom: 17%; */
+	margin-bottom: 7%;
   font-size: 110%;
 }
 #page0-sessions {
@@ -215,6 +216,11 @@ input:checked ~ #site-navigation {
 }
 #page0-callouts {
   flex: 40%;
+}
+#page0-megaphone {
+  font-size: 110%;
+	text-align: center;
+	margin-bottom: 7%;
 }
 #group-photo {
   border-radius: 2%;
